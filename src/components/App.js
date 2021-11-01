@@ -1,108 +1,15 @@
 import '../styles/App.scss';
-import { Route, Switch, useRouteMatch } from 'react-router-dom';
+//import { Route, Switch, useRouteMatch } from 'react-router-dom';
 import personalImg from '../images/avatar.png';
+import Header from './Header';
+
+import Home from './Home';
 function App() {
   return (
-    <div className='App'>
-      <header class='header'>
-        <ul class='header__contact'>
-          <li>
-            <a
-              class='header__contact--phone'
-              href='<%= phone %>'
-              target='_blank'
-              title='Call'
-              rel='noreferrer'
-            >
-              <i class='fas fa-phone-alt'></i> +34 691 270 156
-            </a>
-          </li>
-          <li>
-            <a
-              class='header__contact--email'
-              href='mailto: <%= email %>'
-              target='_blank'
-              title='Email'
-              rel='noreferrer'
-            >
-              <i class='fas fa-envelope'></i> mebrapu23@gmail.com
-            </a>
-          </li>
-        </ul>
-        <nav class='header__nav'>
-          <a href='cualquiera' title='Home'>
-            Home
-          </a>
-          <a href='cualquiera' title='About'>
-            About
-          </a>
-          <a href='cualquiera' title='Portfolio'>
-            Porfolio
-          </a>
-          <a href='cualquiera' title='Contact Me'>
-            Contact Me
-          </a>
-          <button>Descargar CV</button>
-        </nav>
-      </header>
+    <div className='page'>
+      <Header></Header>
       <main>
-        <section class='section__home'>
-          <h1>Mesalina Bracho</h1>
-          <p>
-            Hi, I'm Mesalina Front-end Developer, highly motivated and
-            passionate.
-          </p>
-          <ul>
-            <li>
-              <a
-                href='cualquiera'
-                target='_blank'
-                title='linkedin'
-                rel='noreferrer'
-              >
-                <i class='fab fa-linkedin'></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href='cualquiera'
-                target='_blank'
-                title='twitter'
-                rel='noreferrer'
-              >
-                <i class='fab fa-twitter-square'></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href='cualquiera'
-                target='_blank'
-                title='github'
-                rel='noreferrer'
-              >
-                <i class='fab fa-github-square'></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href='cualquiera'
-                target='_blank'
-                title='email'
-                rel='noreferrer'
-              >
-                <i class='fas fa-envelope-square'></i>
-              </a>
-            </li>
-          </ul>
-          <a
-            href='cualquiera'
-            title='Go to A Little About Me'
-            rel='noreferrer'
-            target='_blank'
-          >
-            <i class='fas fa-arrow-circle-down'></i>
-          </a>
-        </section>
+        <Home></Home>
         <section>
           <h2>A Little About Me</h2>
 
@@ -115,6 +22,14 @@ function App() {
               challenges has brought me here.After a wonderful trip with #Adalab
               I have redirected my professional career to the world of
               programming becoming a <strong>Front-end Developer</strong>.
+            </p>
+            <p>
+              I have a degree in Economic and Business Sciences from the
+              University of Granada, since that moment my professional career
+              has been developed around banking and business
+              administration.However, my great interest in the world of
+              technology made me take a leap and reorient my career towards this
+              moment.
             </p>
             <p>
               I consider myself a <strong>hard-working</strong> and{' '}
@@ -190,7 +105,7 @@ function App() {
         </article>
         <section>
           <h2>Contac Me</h2>
-          <form class='contact__form' action='cualquiera' method='post'>
+          <form className='contact__form' action='cualquiera' method='post'>
             <input
               placeholder='Name...'
               id='name'

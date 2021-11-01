@@ -1,24 +1,14 @@
 .header {
   //position: fixed;
-  width: 100vw;
-  height: 10vh;
+  width: 100%;
+  height: 50px;
+  text-transform: uppercase;
 
-  &__contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    &--phone {
-      margin-right: 20px;
-    }
-    &--email {
-      margin-left: 20px;
-    }
-  }
   &__nav {
-    height: 40px;
+    padding-top: 20px;
+    // margin-left: 15px;
+    //margin-right: 15px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    //position: fixed;
   }
 }
