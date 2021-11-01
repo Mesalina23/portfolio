@@ -1,7 +1,24 @@
-.header__nav {
-  height: 70px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.header {
   //position: fixed;
+  width: 100vw;
+  height: 10vh;
+
+  &__contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &--phone {
+      margin-right: 20px;
+    }
+    &--email {
+      margin-left: 20px;
+    }
+  }
+  &__nav {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    //position: fixed;
+  }
 }
