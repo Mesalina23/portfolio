@@ -1,4 +1,5 @@
 import cv from '../pdf/mesalina-bracho-puga-cv.pdf';
+import Icons from './Icons';
 const Home = () => {
   return (
     <section className='section__home'>
@@ -7,33 +8,33 @@ const Home = () => {
         Hi, I'm Mesalina Front-end Developer, highly motivated and passionate.
       </p>
       <ul className='section__home--items'>
+        <Icons
+          hrefIcon={`https://www.linkedin.com/in/user`}
+          titleIcon='Linkedin'
+          classIcon='fab fa-linkedin-in'
+        />
+        <Icons
+          hrefIcon={`https://www.twitter.com/mebrapu`}
+          titleIcon='Twitter'
+          classIcon='fab fa-twitter'
+        />
+        <Icons
+          hrefIcon={`https://www.github.com/Mesalina23`}
+          titleIcon='Github'
+          classIcon='fab fa-github-alt'
+        />
+        <Icons
+          hrefIcon={`mailto:mebrapu23@gmail.com`}
+          titleIcon='Email'
+          classIcon='far fa-envelope'
+        />
         <li>
           <a
-            href='cualquiera'
-            target='_blank'
-            title='linkedin'
-            rel='noreferrer'
+            href={cv}
+            title='Download CV'
+            download='Mesalina-Bracho-Puga-CV'
+            className='section__home--download'
           >
-            <i class='fab fa-linkedin'></i>
-          </a>
-        </li>
-        <li>
-          <a href='cualquiera' target='_blank' title='twitter' rel='noreferrer'>
-            <i class='fab fa-twitter-square'></i>
-          </a>
-        </li>
-        <li>
-          <a href='cualquiera' target='_blank' title='github' rel='noreferrer'>
-            <i class='fab fa-github-square'></i>
-          </a>
-        </li>
-        <li>
-          <a href='cualquiera' target='_blank' title='email' rel='noreferrer'>
-            <i class='fas fa-envelope-square'></i>
-          </a>
-        </li>
-        <li>
-          <a href={cv} title='Descargar CV' download='Mesalina-Bracho-Puga-CV'>
             Descargar Cv
           </a>
         </li>
@@ -44,7 +45,7 @@ const Home = () => {
         rel='noreferrer'
         target='_blank'
       >
-        <i class='fas fa-arrow-circle-down'></i>
+        <i className='fas fa-arrow-circle-down'></i>
       </a>
     </section>
   );
