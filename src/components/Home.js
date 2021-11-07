@@ -28,17 +28,21 @@ const Home = () => {
           titleIcon='Email'
           classIcon='far fa-envelope'
         />
-        <li>
-          <a
-            href={cv}
-            title='Download CV'
-            download='Mesalina-Bracho-Puga-CV'
-            className='section__home--download'
-          >
-            Descargar Cv
-          </a>
-        </li>
       </ul>
+      <form className='section__home--form'>
+        <label className='section__home--label'for='cv'>Check my CV</label>
+        <select className='section__home--select' name='cv' id='cv'>
+          <option className='section__home--option0' value='select'>
+           Language
+          </option>
+          <option className='section__home--option1' value='spanish'>
+           Spanish
+          </option>
+           <option className='section__home--option2' value='english'>
+          English</option>
+        </select>
+      </form>
+      
       <a
         href='cualquiera'
         title='Go to A Little About Me'
