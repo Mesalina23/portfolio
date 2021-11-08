@@ -1,6 +1,6 @@
 const Portfolio=()=>{
     return(
-        <section>
+        <section className='section__portfolio' id='portfolio'>
           <h2>My Projects</h2>
        
         <article>

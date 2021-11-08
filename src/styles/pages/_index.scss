@@ -1,5 +1,19 @@
 .page {
   font-family: $font-page;
   font-size: 12px;
-  color: $dark-Brown;
+  color: $dark-brown;
+  height: 100vh;
+ 
+  
+}
+.main__container{
+  width: 100%;
+  height: calc(100vh - 70px);
+  position: relative;
+  top:70px;
+  scroll-behavior: smooth;
+    > *{
+    width: 100vw;
+    height: calc(100vh - 70px);
+      }
 }

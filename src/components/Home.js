@@ -2,7 +2,7 @@ import cv from '../pdf/mesalina-bracho-puga-cv.pdf';
 import Icons from './Icons';
 const Home = () => {
   return (
-    <section className='section__home'>
+    <section className='section__home' id='home'>
       <h1 className='section__home--title'>Mesalina Bracho</h1>
       <p className='section__home--paragraph'>
         Hi, I'm Mesalina Front-end Developer, highly motivated and passionate.
@@ -23,11 +23,7 @@ const Home = () => {
           titleIcon='Github'
           classIcon='fab fa-github-alt'
         />
-        <Icons
-          hrefIcon={`mailto:mebrapu23@gmail.com`}
-          titleIcon='Email'
-          classIcon='far fa-envelope'
-        />
+    
       </ul>
       <form className='section__home--form'>
         <label className='section__home--label'for='cv'>Check my CV</label>

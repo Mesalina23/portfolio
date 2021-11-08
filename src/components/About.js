@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className='section__about'>
+    <section className='section__about' id='about'>
       <h2 className='section__about--title'>A Little Bit About Me</h2>
 
       <div alt='imagen personal' className='section__about--img'></div>

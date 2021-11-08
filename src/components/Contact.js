@@ -1,5 +1,6 @@
 const Contact=()=>{
-    return(<section>
+    return(
+    <section className='section__contact' id='contact' >
         <h2>Contac Me</h2>
         <form className='contact__form' action='cualquiera' method='post'>
           <input
