@@ -1,39 +1,39 @@
 const Footer = () => {
     return ( <footer className='footer__container'>
     <small className='footer__container--copy'>mesalina&copy;2021 </small>
-    <ul>
-      <li>
+    <ul className='footer__container--ul'>
+      <li className='footer__container--li'>
         <a
           href='cualquiera'
           target='_blank'
-          title='linkedin'
+          title='Linkedin'
           rel='noreferrer'
         >
           <i class='fab fa-linkedin'></i>
         </a>
       </li>
-      <li>
+      <li className='footer__container--li'>
         <a
           href='cualquiera'
           target='_blank'
-          title='twitter'
+          title='Twitter'
           rel='noreferrer'
         >
           <i class='fab fa-twitter-square'></i>
         </a>
       </li>
-      <li>
+      <li className='footer__container--li'>
         <a
           href='cualquiera'
           target='_blank'
-          title='github'
+          title='GitHub'
           rel='noreferrer'
         >
           <i class='fab fa-github-square'></i>
         </a>
       </li>
-      <li>
-        <a href='cualquiera' target='_blank' title='email' rel='noreferrer'>
+      <li className='footer__container--li'>
+        <a href='cualquiera' target='_blank' title='Email' rel='noreferrer'>
           <i class='fas fa-envelope-square'></i>
         </a>
       </li>

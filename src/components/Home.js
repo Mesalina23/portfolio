@@ -23,27 +23,17 @@ const Home = () => {
           titleIcon='Github'
           classIcon='fab fa-github-alt'
         />
+        <li className='section__home--li'>
+          <a className='section__home--a' target='_blank' rel='noreferrer' href={cv} download='Mesalina Bracho Puga CV Front-end'>Download CV</a>
+        </li>
     
       </ul>
-      <form className='section__home--form'>
-        <label className='section__home--label'for='cv'>Check my CV</label>
-        <select className='section__home--select' name='cv' id='cv'>
-          <option className='section__home--option0' value='select'>
-           Language
-          </option>
-          <option className='section__home--option1' value='spanish'>
-           Spanish
-          </option>
-           <option className='section__home--option2' value='english'>
-          English</option>
-        </select>
-      </form>
+     
       
       <a
-        href='cualquiera'
+        href='#about'
         title='Go to A Little About Me'
         rel='noreferrer'
-        target='_blank'
       >
         <i className='fas fa-arrow-circle-down'></i>
       </a>
