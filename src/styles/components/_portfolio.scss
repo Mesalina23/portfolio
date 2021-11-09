@@ -1,27 +1,29 @@
 .section__portfolio {
-  //background-color: seagreen;
   width: 100%;
   height: fit-content;
   display: flex;
   flex-direction: column;
-  //justify-content: center;
   align-items: center;
+  margin-top: 15px;
   &--title {
     font-weight: 600;
     padding: 15px;
-    font-size: 1.5em;
+    font-size: 20px;
     text-shadow: 2px 2px 4px #796f6f;
   }
   &--container {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 20px;
+    justify-items: start;
+    //padding: 20px;
+    padding-left: 40px;
     
   }
   &--subtitle {
-    font-size: 1.2em;
+    font-size:  20px;
+    font-weight: 600;
     padding: 5px;
-    margin-top: 20px;
+    margin-top: 18px;
     
   }
   &--img {
@@ -30,15 +32,29 @@
   }
   &--paragraph {
     padding: 5px;
-    font-size: 14px;
+    font-size: 16px;
   }
   &--a{
       padding: 5px;
-      font-size: 14px;
+      color: $grey;
+      font-size: 16px;
+      &:hover{
+        font-size: 20px;
+        width: fit-content;
+        color:$light-grey;
+        background-color: $dark-grey;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+      }
     
   }
   &--paragraph{
       padding: 5px;
+  }
+  &--anchor{
+    margin-top:20px;
+    margin-bottom: 20px;
   }
 }
 
