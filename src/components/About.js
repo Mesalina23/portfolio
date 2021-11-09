@@ -3,10 +3,10 @@ const About = () => {
     <section className='section__about' id='about'>
       <h2 className='section__about--title'>A Little Bit About Me</h2>
       <div className='section__about--container'>
-      <article className='section__about--article'>
+      <article className='section__about--article article1'>
       <div alt='imagen personal' className='section__about--img'></div>
       </article>
-      <article className='section__about--article'>
+      <article className='section__about--article section__about--skills'>
         <h3 className='section__about--subtitle'>Skills</h3>
         <p className='section__about--paragraph'>
           Hello World!!! Being a <strong>curious</strong>,{' '}
@@ -28,7 +28,7 @@ const About = () => {
           any work environment. My high <strong>empathy</strong>, good character
           and love for continuous learning are my main virtues.
         </p>
-        <p>Always ready for a good cup of coffee!!</p>
+        <p className='section__about--paragraph'>Always ready for a good cup of coffee!!</p>
       </article>
       <article className='section__about--article'>
         <h3 className='section__about--subtitle'>Tech Skills</h3>
@@ -44,9 +44,9 @@ const About = () => {
       <a
         href='#portfolio'
         title='Go to My Projects'
-       
+        className='section__about--anchor'
       >
-        <i class='fas fa-arrow-circle-down'></i>
+        <i class='fas fa-arrow-circle-down fas-about'></i>
       </a>
     </section>
   );

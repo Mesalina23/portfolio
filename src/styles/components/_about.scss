@@ -6,22 +6,27 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-    @media (min-width: 768px) {
-      grid-template-columns: 1fr 1fr;
-    }
-    @media (min-width: 1200px) {
+  height: 100vh;
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px 600px;
+    grid-template-areas: 'title title' 'img img' 'img img' 'arrow arrow'
+  }
+    @media (min-width: 1024px) {
+      grid-template-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
     }
-  
-
   &--title {
-    margin-bottom: 20px;
     font-weight: 600;
-    margin-top: 30px;
-    font-size: 1em;
+    margin-top: 15px;
+    font-size: 1.5em;
     text-shadow: 2px 2px 4px #796f6f;
     @media (min-width: 768px) {
       font-size: 2em;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      grid-area: title;
+      margin-top: 100px;
     }
   }
   &--container{
@@ -29,54 +34,64 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  &--container{
-   // gap: 20px;
-    //display: grid;
-    //grid-template-columns: 1fr;
-    //grid-row: 1fr;
-    //justify-items: center;
-    //@media (min-width: 768px) {
-      //grid-template-columns: 1fr 1fr;
-    //}
-    //@media (min-width: 1200px) {
-    //  grid-template-columns: 1fr 1fr 1fr;
-    //}
-  
+    @media (min-width: 768px) {
+      grid-column: 1/3;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: 'photo skills' 'photo tech' ;
+      justify-items: center;
+      height: 90%;
+      }
   }
   
   &--article {
-    //width: 100%;
-    //display: flex;
-    //flex-direction: column;
-    //width: 60%;
-    //height: 40%;
-   //background-color: $light-grey;
     text-indent: 20px;
-    
+    font-size: 18px;
   }
+
   &--subtitle {
     padding: 20px;
     margin-left: 20px;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 1em;
     text-shadow: 2px 2px 4px #796f6f;
+    @media (min-width: 768px) {
+      font-size: 1.5em;
+      }
+    
   }
   &--img {
-    background-image: url(../../images/avatar.png);
+    background-image: url(../../images/photo.jpg);
     width: 150px;
     height: 150px;
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
     background-size: 100% auto;
+    @media (min-width: 768px) {
+      width: 300px;
+      height: 300px;
+      }
   }
   &--paragraph{
-   // width: 60%;
-  
-   margin-left: 40px;
-   margin-right: 40px;
+   margin-left: 20px;
+   margin-right: 20px;
    text-align: justify;
    text-indent: 20px;
+   font-size: 0.85em;
+  }
+  &--anchor{
+    @media (min-width: 768px) {
+      grid-area: arrow;
+      margin-bottom: 40px;
+      //height: 20%;
+    }
+  }
+ 
+}
+.article1{
+  @media (min-width: 768px) {
+    grid-area: photo;
   }
 }
