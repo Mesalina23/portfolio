@@ -9,7 +9,8 @@
   align-items: center;
   justify-content: space-between;
   background-color: $light-grey;
-  color:$dark-brown;
+  color:$dark-grey;
+  
   &__details{
     margin-left: 20px;
     font-size: 14px;
@@ -74,7 +75,7 @@
     }
     }
     &.active{
-      background-color: $dark-brown;
+      background-color: $dark-grey;
       color: $light-grey;
       .header__details{
         .fas{

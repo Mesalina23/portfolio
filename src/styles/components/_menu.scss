@@ -1,8 +1,8 @@
 .menu__container{
-    width: 300px;
+    width: 150px;
     height: 100vh;
-    right: -300px;
-    background-color: $dark-brown;
+    right: -150px;
+    background-color: $dark-grey;
     position: fixed;
     top:0;
     z-index:2;
@@ -14,8 +14,13 @@
     margin:0;
     padding: 0;
     list-style: none;
-    font-size: 40px;
+    font-size: 20px;
     color: $light-grey;
+    @media (min-width: 768px) {
+        font-size: 40px;
+        width: 300px;
+        right: -300px;
+      }
     
     &.active{
         right: 0;

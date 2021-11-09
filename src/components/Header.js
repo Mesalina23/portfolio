@@ -5,7 +5,7 @@ const Header = (props) => {
   return (
     <header className={'header '+  (props.menuOpen && 'active')}>
       <div className='header__details '>
-        <a href='#home' title='Home'>
+        <a href='#home' title='Home' >
           Home
         </a>
         <ul className='header__details--icons' >
