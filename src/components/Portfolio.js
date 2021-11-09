@@ -11,7 +11,7 @@ const Portfolio = () => {
       <ul className="section__portfolio--container">
         <li>
           <h4 className="section__portfolio--subtitle">Rick & Morty App</h4>
-          <img src={rick} alt="Rick and Morty Finder" className="section__portfolio--img"/>
+          <img src={rick} alt="Rick and Morty Finder" className="section__portfolio--img" />
           <p className="section__portfolio--paragraph">Character finder created with React Js.</p>
           <a href="http://beta.adalab.es/modulo-3-evaluacion-final-Mesalina23/#/" target="_blank" rel="noreferrer"title="Go to Website" className="section__portfolio--a">
            Click Me and Have a look!
