@@ -12,21 +12,37 @@
   color:$dark-brown;
   &__details{
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
     &--icons{
-      display: flex;
+      width: 200px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-right: 10px;
       align-items: center;
       text-transform: lowercase;
+      @media (min-width: 768px) {
+        display:flex;
+      }
     }
     .far{
-      font-size: 14px;
+      font-size: 10px;
+      
+      @media (min-width: 768px) {
+        font-size: 14px;
+      }
     }
     .fas{
-      font-size: 14px;
+      font-size: 10px;
+      @media (min-width: 768px) {
+        font-size: 14px;
+      }
     }
 
     > *{
@@ -36,11 +52,15 @@
       margin-left: 10px;
       font-size: 14px;
       font-weight: 500;
+      @media (min-width: 768px) {
+        font-size: 16px;
+      }
     }
   }
   &__menu {
    width: 32px;
    margin-right: 20px;
+   margin-left: 20px;
    height: 25px;
    display: flex;
    flex-direction: column;

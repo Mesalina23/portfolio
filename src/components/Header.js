@@ -19,7 +19,7 @@ const Header = (props) => {
           titleIcon='Phone'
           classIcon='fas fa-phone'
         />
-        <span className='header__details--span'>+34 691 270 156</span>
+        <span className='header__details--span'>(+34)691270156</span>
          
         </ul>
       </div>
