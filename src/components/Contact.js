@@ -26,6 +26,13 @@ const Contact=()=>{
           ></textarea>
           <input type='submit' value='send'></input>
         </form>
+        <a
+        href='#contact'
+        title='Go to My Projects'
+        className='section__about--anchor'
+      >
+        <i class='fas fa-arrow-circle-down fas-about'></i>
+      </a>
       </section>
     );
 }

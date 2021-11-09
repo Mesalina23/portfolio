@@ -1,4 +1,44 @@
-.section__portfolio{
-    background-color: seagreen;
-    width: 100%;
+.section__portfolio {
+  //background-color: seagreen;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  &--title {
+    font-weight: 600;
+    padding: 15px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px #796f6f;
+  }
+  &--container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    
+  }
+  &--subtitle {
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top: 20px;
+    
+  }
+  &--img {
+    width: 200px;
+    padding: 5px;
+  }
+  &--paragraph {
+    padding: 5px;
+    font-size: 14px;
+  }
+  &--a{
+      padding: 5px;
+      font-size: 14px;
+    
+  }
+  &--paragraph{
+      padding: 5px;
+  }
 }
+

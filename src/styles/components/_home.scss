@@ -1,3 +1,8 @@
+@keyframes arrowBlink{
+  100%{
+    opacity: 0;
+  }
+}
 .section__home {
   background-color: #c5b7aa;
   width: 100%;
@@ -75,4 +80,5 @@
 .fa-arrow-circle-down {
   font-size: 40px;
   color: $dark-grey;
+  animation: arrowBlink 3s infinite;
 }

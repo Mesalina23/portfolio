@@ -90,12 +90,13 @@
    margin-right: 20px;
    text-align: justify;
    text-indent: 20px;
-   font-size: 0.85em;
+   font-size: 0.75em;
   }
   &--anchor{
     @media (min-width: 768px) {
       grid-area: arrow;
-      margin-bottom: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
   }
 }
