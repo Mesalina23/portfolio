@@ -32,7 +32,7 @@ const Contact=()=>{
             name='messege'
             required
           ></textarea>
-          <button className='section__contact--submit' type='submit' >Send</button>
+          <button className='section__contact--submit' type='submit' value='send'>Send</button>
           {messege && <span className='section__contact--span'>Thanks, I´ll replay ASAP :)</span>}
         </form>
         </article>
