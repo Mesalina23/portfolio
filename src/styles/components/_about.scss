@@ -20,6 +20,7 @@
   &--title {
     font-weight: 600;
     margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 20px;
     text-shadow: 2px 2px 4px #796f6f;
     @media (min-width: 768px) {
@@ -95,8 +96,8 @@
   &--anchor{
     @media (min-width: 768px) {
       grid-area: arrow;
-      margin-top: 20px;
-      margin-bottom: 20px;
+     // margin-top: 20px;
+     // margin-bottom: 20px;
     }
   }
 }
