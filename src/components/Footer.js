@@ -1,44 +1,29 @@
-const Footer = () => {
-    return ( <footer className='footer__container'>
-    <small className='footer__container--copy'>mesalina&copy;2021 </small>
-    <ul className='footer__container--ul'>
-      <li className='footer__container--li'>
-        <a
-          href='cualquiera'
-          target='_blank'
-          title='Linkedin'
-          rel='noreferrer'
-        >
-          <i class='fab fa-linkedin'></i>
-        </a>
-      </li>
-      <li className='footer__container--li'>
-        <a
-          href='cualquiera'
-          target='_blank'
-          title='Twitter'
-          rel='noreferrer'
-        >
-          <i class='fab fa-twitter-square'></i>
-        </a>
-      </li>
-      <li className='footer__container--li'>
-        <a
-          href='cualquiera'
-          target='_blank'
-          title='GitHub'
-          rel='noreferrer'
-        >
-          <i class='fab fa-github-square'></i>
-        </a>
-      </li>
-      <li className='footer__container--li'>
-        <a href='cualquiera' target='_blank' title='Email' rel='noreferrer'>
-          <i class='fas fa-envelope-square'></i>
-        </a>
-      </li>
-    </ul>
-  </footer>
-    );
-}
+import FooterIcons from "./FooterIcons";
+const Footer = (props) => {
+  return (
+    <footer className="footer__container">
+      <small className="footer__container--copy">mesalina&copy;2021 </small>
+      <ul className="footer__container--ul">
+        <FooterIcons
+          className="footer__container--li"
+          hrefIcon={`https://www.linkedin.com/in/user`}
+          titleIcon="Linkedin"
+          classIcon="fab fa-linkedin-in footer__icon"
+        />
+        <FooterIcons
+          className="footer__container--li"
+          hrefIcon={`https://www.twitter.com/mebrapu`}
+          titleIcon="Twitter"
+          classIcon="fab fa-twitter footer__icon"
+        />
+        <FooterIcons
+          className="footer__container--li"
+          hrefIcon={`https://www.github.com/Mesalina23`}
+          titleIcon="Github"
+          classIcon="fab fa-github-alt footer__icon"
+        />
+      </ul>
+    </footer>
+  );
+};
 export default Footer;

@@ -15,54 +15,56 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: start;
-    //padding: 20px;
+
     padding-left: 40px;
     @media (min-width: 768px) {
       font-size: 2em;
       margin-top: 30px;
       margin-bottom: 30px;
       grid-template-columns: 1fr 1fr;
-      gap: 20px
-      ;
-
+      gap: 20px;
+    }
+    @media (min-width:1024px){
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
   &--subtitle {
-    font-size:  20px;
+    font-size: 20px;
     font-weight: 600;
     padding: 5px;
     margin-top: 18px;
-    
   }
   &--img {
     width: 200px;
     padding: 5px;
+    border-radius: 20px;
+    @media (min-width: 768px) {
+      width: 300px;
+    }
+  }
+  &--paragraph {
+    //padding: 5px;
+    font-size: 16px;
+  }
+  &--a {
+    padding: 5px;
+    color: $grey;
+    font-size: 16px;
+    &:hover {
+      font-size: 20px;
+      width: fit-content;
+      color: $light-grey;
+      background-color: $grey;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+    }
   }
   &--paragraph {
     padding: 5px;
-    font-size: 16px;
   }
-  &--a{
-      padding: 5px;
-      color: $grey;
-      font-size: 16px;
-      &:hover{
-        font-size: 20px;
-        width: fit-content;
-        color:$light-grey;
-        background-color: $dark-grey;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-      }
-    
-  }
-  &--paragraph{
-      padding: 5px;
-  }
-  &--anchor{
-    margin-top:20px;
+  &--anchor {
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 }
-

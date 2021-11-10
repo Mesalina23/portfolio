@@ -1,14 +1,83 @@
-.section__contact{
-    width: 100%;
-    margin-top: 15px;
+.section__contact {
+  margin-top: 30px;
+  display: flex;
+  height: fit-content;
+
+  &--left {
+    flex: 1;
+    overflow: hidden;
+  }
+  &--img {
+    height: 70%;
+  }
+  &--right {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-&--title{
+    justify-content: center;
+    height: fit-content;
+  }
+  &--title {
     font-weight: 600;
     margin-top: 15px;
     font-size: 20px;
     text-shadow: 2px 2px 4px #796f6f;
-}
+  }
+  &--form {
+    width: 120px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: flex-start;
+    @media (min-width:768px){
+        width: 300px;
+        height: 700px; 
+    }
+  }
+  &--input {
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-size: 12px;
+    @media (min-width:768px){
+        width: 300px;
+        height: 50px; 
+        font-size: 14px;
+    }
+  }
+  &--textarea {
+    margin-top: 10px;
+    width: 120px;
+    height: 200px;
+    font-size: 12px;
+    @media (min-width:768px){
+        width: 300px;
+        height: 250px; 
+        margin-top: 20px;
+        font-size: 14px;
+    }
+  }
+  &--submit {
+    width: 50px;
+    height: 30px;
+    color: $light-grey;
+    background-color: $grey;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor :pointer;
+    @media (min-width:768px){
+      width: 150px;
+  }
+  }
+  &--span{
+     color: $nude;
+     font-size: 15px;
+     padding: 10px; 
+  }
 }
