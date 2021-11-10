@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.667322cf.chunk.css",
+    "main.js": "./static/js/main.e0258e51.chunk.js",
+    "main.js.map": "./static/js/main.e0258e51.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.7ad783a2.js",
+    "runtime-main.js.map": "./static/js/runtime-main.7ad783a2.js.map",
+    "static/js/2.485ab9d8.chunk.js": "./static/js/2.485ab9d8.chunk.js",
+    "static/js/2.485ab9d8.chunk.js.map": "./static/js/2.485ab9d8.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.667322cf.chunk.css.map": "./static/css/main.667322cf.chunk.css.map",
+    "static/js/2.485ab9d8.chunk.js.LICENSE.txt": "./static/js/2.485ab9d8.chunk.js.LICENSE.txt",
+    "static/media/aboutUs.e1b04a2b.png": "./static/media/aboutUs.e1b04a2b.png",
+    "static/media/anonymous.3f89e7fa.png": "./static/media/anonymous.3f89e7fa.png",
+    "static/media/awesome.75977cb3.png": "./static/media/awesome.75977cb3.png",
+    "static/media/candyflix.7393aa84.png": "./static/media/candyflix.7393aa84.png",
+    "static/media/contact.e0054d7b.jpg": "./static/media/contact.e0054d7b.jpg",
+    "static/media/mesalina-bracho-puga-cv.9523c9af.pdf": "./static/media/mesalina-bracho-puga-cv.9523c9af.pdf",
+    "static/media/migratedCode.5ac0d7ee.png": "./static/media/migratedCode.5ac0d7ee.png",
+    "static/media/App.scss": "./static/media/photo.6dbf8692.jpg",
+    "static/media/rick&morty.e144d280.png": "./static/media/rick&morty.e144d280.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ad783a2.js",
+    "static/js/2.485ab9d8.chunk.js",
+    "static/css/main.667322cf.chunk.css",
+    "static/js/main.e0258e51.chunk.js"
+  ]
+}
