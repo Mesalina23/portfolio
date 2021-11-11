@@ -2,7 +2,7 @@ const Menu=(props)=>{
     return(
         <ul className={'menu__container '+  (props.menuOpen && 'active')}>
             <li className='menu__container--li' onClick={()=>props.setmenuOpen(false)}>
-            <a href='#about' title='About' className='menu__container--a'>
+            <a href='#home' title='Home' className='menu__container--a'>
           Home
         </a> 
         </li>
