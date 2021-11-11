@@ -18,10 +18,13 @@
     }
   }
   &--copy{
-    margin-left: 20px;
+    margin-left: 20px;  
     @media (min-width: 768px) {
       margin-left: 40px;
     }
+  }
+  &--img{
+    width: 10px;
   }
 }
 .footer__icon {

@@ -18,6 +18,7 @@
     //margin-top: 40px;
     margin-bottom: 40px;
     text-shadow: 2px 2px 4px #796f6f;
+
     @media (min-width: 768px) {
       margin-bottom: 80px;
       margin-top: 80px;
@@ -56,11 +57,11 @@
     background-color: $light-grey;
 
   }
+  
 }
 &--li{
   padding: 30px;
 }
-
 }
 .fab {
   margin-left: 20px;

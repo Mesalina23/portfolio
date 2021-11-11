@@ -1,3 +1,13 @@
+@keyframes glow {
+  from {
+    color: $grey;
+    text-shadow: 0 0 10px $light-brown, 0 0 20px $light-brown, 0 0 30px $light-brown, 0 0 40px $light-brown, 0 0 50px $light-brown, 0 0 60px $light-brown, 0 0 70px $light-brown, 0 0 90px $light-brown;
+  }
+  to {
+    color: $dark-grey;
+    text-shadow: 0 0 20px $light-brown, 0 0 30px $light-brown, 0 0 40px $light-brown, 0 0 50px $light-brown, 0 0 60px $light-brown, 0 0 70px $light-brown, 0 0 80px $light-brown, 0 1 90px $light-brown;
+  }
+}
 .section__portfolio {
   width: 100%;
   height: fit-content;
@@ -59,14 +69,11 @@
     padding: 5px;
     color: $grey;
     font-size: 16px;
+    animation: glow 1s ease-in-out infinite;
     &:hover {
       font-size: 20px;
-      width: fit-content;
-      color: $light-grey;
-      background-color: $grey;
-      border-radius: 20px;
-      display: flex;
-      justify-content: center;
+      color: $dark-grey;
+      animation: none;
     }
   }
   &--paragraph {

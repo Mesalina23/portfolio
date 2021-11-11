@@ -3,7 +3,7 @@ import Icons from './Icons';
 const Home = () => {
   return (
     <section className='section__home' id='home'>
-      <h1 className='section__home--title'>Mesalina Bracho</h1>
+      <h1 className='section__home--title'>Mesalina <span className='section__home--span'>Bracho</span></h1>
       <p className='section__home--paragraph'>
         Hi, I'm Mesalina Front-end Developer, highly motivated and passionate.
       </p>

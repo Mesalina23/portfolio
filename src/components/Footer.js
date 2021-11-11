@@ -1,8 +1,9 @@
+import favicon from '../images/favicon.png';
 import FooterIcons from "./FooterIcons";
 const Footer = (props) => {
   return (
     <footer className="footer__container">
-      <small className="footer__container--copy">mesalina&copy;2021 </small>
+      <small className="footer__container--copy">mesalina<img src={favicon} alt="heart" className="footer__container--img" />2021 </small>
       <ul className="footer__container--ul">
         <FooterIcons
           className="footer__container--li"
