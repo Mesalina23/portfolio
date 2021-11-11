@@ -43,8 +43,9 @@
     padding: 5px;
     border-radius: 20px;
     &:hover {
-      transform: scale(1.2);
-      margin-bottom: 25px;
+      transform: scale(1.5);
+      margin-bottom: 55px;
+      margin-left: 50px;
     }
     @media (min-width: 768px) {
       width: 300px;
