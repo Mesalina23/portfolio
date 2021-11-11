@@ -21,7 +21,7 @@ const Portfolio = () => {
           <h4 className="section__portfolio--subtitle">React Migrated Code</h4>
           <img src={migratedCode} alt="Cards Generater" className="section__portfolio--img"/>
           <p className="section__portfolio--paragraph">Refactored code from JavaScript to React Js. Adding Backed side.</p>
-          <a href="cualquiera" target="_blank" rel="noreferrer" title="Go to Website" className="section__portfolio--a">
+          <a href="https://awesome-profile-nodemonies.herokuapp.com/#/" target="_blank" rel="noreferrer" title="Go to Website" className="section__portfolio--a">
           Click Me and Have a look!
           </a>
         </li>
@@ -39,7 +39,7 @@ const Portfolio = () => {
           <p className="section__portfolio--paragraph">
             Responsive Web App created with JavaScript.
           </p>
-          <a href="cualquiera" title="Go to Website"className="section__portfolio--a" >
+          <a href="http://beta.adalab.es/project-promo-n-module-2-team-4/" title="Go to Website"className="section__portfolio--a" >
           Click Me and Have a look!
           </a>
         </li>
@@ -47,7 +47,7 @@ const Portfolio = () => {
           <h4 className="section__portfolio--subtitle">Anonimous Proxy</h4>
           <img src={anonymous} alt="Responsive Web" className="section__portfolio--img"/>
           <p className="section__portfolio--paragraph">Responsive Web created with HTML5 and CSS3. Animations and transitions are shown.</p>
-          <a href="cualquiera" title="Go to Website" className="section__portfolio--a" >
+          <a href="http://beta.adalab.es/modulo-1-evaluacion-final-Mesalina23/" title="Go to Website" className="section__portfolio--a" >
           Click Me and Have a look!
           </a>
         </li>
@@ -55,7 +55,7 @@ const Portfolio = () => {
           <h4 className="section__portfolio--subtitle">About Us</h4>
           <img src={aboutUs} alt="About Us Web" className="section__portfolio--img"/>
           <p className="section__portfolio--paragraph">Colaborative Web created With HTML5 and CSS3.</p>
-          <a href="cualquiera" title="Go to Website" className="section__portfolio--a">
+          <a href="http://beta.adalab.es/modulo-1-evaluacion-final-Mesalina23/" title="Go to Website" className="section__portfolio--a">
           Click Me and Have a look!
           </a>
         </li>
